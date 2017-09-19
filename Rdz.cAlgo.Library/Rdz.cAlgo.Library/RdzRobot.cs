@@ -14,8 +14,8 @@ namespace Rdz.cAlgo.Library
 {
 	public abstract class RdzRobot : Robot
 	{
-		private RdzRobotUtility _utility;
-		private RdzRobotUtility Utility
+		public RdzRobotUtility _utility;
+		public RdzRobotUtility Utility
 		{
 			get
 			{

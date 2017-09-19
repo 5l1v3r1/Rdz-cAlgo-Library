@@ -24,5 +24,10 @@ namespace Rdz.cAlgo.Library
 			var priceDiff = Robot.Symbol.TickSize * points;
 			return price + priceDiff;
 		}
+
+		public long LotSizeToVolume(double LotSize)
+		{
+			return Robot.Symbol.NormalizeVolume((Robot.Symbol.LotSize * LotSize));
+		}
 	}
 }
