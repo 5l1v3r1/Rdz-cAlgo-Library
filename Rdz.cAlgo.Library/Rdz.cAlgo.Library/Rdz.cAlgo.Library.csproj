@@ -44,9 +44,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="RdzRobot.cs" />
-    <Compile Include="RdzRobotExt.cs" />
-    <Compile Include="RdzRobotUtility.cs" />
+    <Compile Include="RdzBot.cs" />
+    <Compile Include="RdzBotExtensions.cs" />
+    <Compile Include="RdzBotUtility.cs" />
+    <Compile Include="RdzBotTransaction.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
